@@ -6,17 +6,15 @@ export default function Home({ isConnected }) {
   return (
     <div className="container">
       <Head>
-        <title>Test App</title>
+        <title>User Agent</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <h1 className="title">
           User agent logger
         </h1>
       <div>
-        click here to look at past visitors
-        {/* <Link href="/visitors" as={`/visitors`}></Link> */}
         <Link href="/visitors">
-      <a>here</a>
+      <a> click here to look at the Visitors</a>
     </Link>
       </div>
 
